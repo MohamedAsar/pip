@@ -1,0 +1,4 @@
+Bundle-Name: new-workflow-web
+Bundle-SymbolicName: com.demo.newworkflow.web
+Bundle-Version: 1.0.0
+Export-Package: com.demo.newworkflow.web.constants

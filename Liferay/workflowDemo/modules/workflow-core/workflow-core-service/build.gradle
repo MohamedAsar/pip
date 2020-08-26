@@ -1,0 +1,13 @@
+dependencies {
+	compileOnly group: "biz.aQute.bnd", name: "biz.aQute.bndlib"
+	compileOnly group: "com.liferay", name: "com.liferay.osgi.util"
+	compileOnly group: "com.liferay", name: "com.liferay.portal.spring.extender.api"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly project(":modules:workflow-core:workflow-core-api")
+}
+
+buildService {
+	apiDir = "../workflow-core-api/src/main/java"
+}
+
+group = "com.demo.workflow.core"

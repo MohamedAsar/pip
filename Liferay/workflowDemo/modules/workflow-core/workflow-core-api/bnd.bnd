@@ -1,0 +1,9 @@
+Bundle-Name: workflow-core-api
+Bundle-SymbolicName: com.demo.workflow.core.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.demo.workflow.core.exception,\
+	com.demo.workflow.core.model,\
+	com.demo.workflow.core.service,\
+	com.demo.workflow.core.service.persistence
+-includeresource: META-INF/service.xml=../workflow-core-service/service.xml

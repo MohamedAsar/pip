@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.demo.workflow.core.model.Hotel">
+		<field name="uuid" type="String" />
+		<field name="orderId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="pizza" type="int" />
+		<field name="burger" type="int" />
+		<field name="Doughnut" type="int" />
+		<field name="status" type="int" />
+		<field name="statusByUserId" type="long" />
+		<field name="statusByUserName" type="String" />
+		<field name="statusDate" type="Date" />
+	</model>
+	<model name="com.demo.workflow.core.model.Leave">
+		<field name="uuid" type="String" />
+		<field name="leaveId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="leaveName" type="String" />
+		<field name="startDate" type="Date" />
+		<field name="endDate" type="Date" />
+	</model>
+</model-hints>

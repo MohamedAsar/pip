@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<beans
+	default-destroy-method="destroy"
+	default-init-method="afterPropertiesSet"
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+	<bean class="com.demo.workflow.core.service.impl.HotelLocalServiceImpl" id="com.demo.workflow.core.service.HotelLocalService" />
+	<bean class="com.demo.workflow.core.service.persistence.impl.HotelPersistenceImpl" id="com.demo.workflow.core.service.persistence.HotelPersistence" parent="basePersistence" />
+	<bean class="com.demo.workflow.core.service.impl.LeaveLocalServiceImpl" id="com.demo.workflow.core.service.LeaveLocalService" />
+	<bean class="com.demo.workflow.core.service.persistence.impl.LeavePersistenceImpl" id="com.demo.workflow.core.service.persistence.LeavePersistence" parent="basePersistence" />
+</beans>
